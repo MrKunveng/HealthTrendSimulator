@@ -15,17 +15,25 @@ This tool is particularly useful in scenarios where access to real patient data 
 
 Features
 
-Synthetic Patient Data Generation: Generates data for 5000 patients with configurable parameters.
-Health Metrics Simulation: Simulates temperature, blood pressure, heart rate, respiration rate, and BMI.
-Risk Level Assessment: Determines risk levels for CVD and diabetes.
+Synthetic Patient Data Generation: 
+Generates data for 5000 patients with configurable parameters.
+
+Health Metrics Simulation: 
+Simulates temperature, blood pressure, heart rate, respiration rate, and BMI.
+
+Risk Level Assessment: 
+Determines risk levels for CVD and diabetes.
+
 Treatment Action Simulation: Recommends actions based on risk levels, perfect for RL model training.
 Time Series Data: Produces data over a specified period, simulating changes in health metrics and risk levels.
-Installation
 
+Installation:
 Ensure you have Python 3.6 or later installed on your system. You can then install the required dependencies using pip:
 
 bash
+
 Copy code
+
 pip install numpy pandas
 Usage
 
@@ -34,6 +42,7 @@ To generate the dataset, simply run the script:
 bash
 Copy code
 python HealthTrendSimulator.py
+
 The output will be a CSV file named medical_data_with_trend.csv, located in the same directory as the script. This file contains the simulated health data for analysis or model training.
 
 Customization
